@@ -53,7 +53,7 @@ const Header = ({ data }) => {
               </Link>
             </p>
 
-            <p className="text-white">
+            <p className="text-white text-sm lg:text-md">
               <i className="ri-album-fill text-amber-400 mr-2"></i>
               {data.release_date || "Not Available"}
               <i className="ml-5 ri-megaphone-fill text-amber-400 mr-2"></i>
@@ -61,7 +61,7 @@ const Header = ({ data }) => {
             </p>
             <Link
               to={`/${data.media_type}/details/${data.id}/trailer`}
-              className="p-2.5 font-semibold mt-3 rounded-md text-sm text-white bg-[#6556CD]"
+              className="p-1.5 font-semibold mt-3 rounded-md text-sm text-white bg-[#6556CD] lg:p-2.5"
             >
               Watch Trailer
             </Link>

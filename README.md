@@ -44,3 +44,7 @@ Your contributions are welcome and appreciated! 🤝
 The Movie Database (TMDB) (TMDB API)  
 
 Made by Aditya Singh  
+
+# 🔗 Live Demo
+👉 Click below to visit the live site
+[Live Demo](https://react-movie-site-nu.vercel.app/)

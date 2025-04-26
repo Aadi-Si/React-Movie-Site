@@ -152,7 +152,11 @@ const Moviedetails = () => {
             <h1 className="text-white font-semibold text-xl mb-2">
               Overview :
             </h1>
-            <p className="text-white mb-8">{info.detail.overview}</p>
+            <p className="text-white mb-8">{
+              window.innerWidth <= 640 ?
+            info.detail.overview.slice(0,550):
+            info.detail.overview
+            }</p>
             <Link
               className="py-4 px-5  font-semibold rounded-md text-sm text-white bg-[#6556CD]"
               to={`${pathname}/trailer`}

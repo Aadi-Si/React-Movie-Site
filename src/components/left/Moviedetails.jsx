@@ -115,7 +115,7 @@ const Moviedetails = () => {
         </div>
         <div className=" w-full h-[90vh]  lg:w-[75%] lg:pt-10">
           <div className="content mb-15">
-            <h1 className="text-white text-5xl font-black">
+            <h1 className="text-white text-3xl font-black lg:text-5xl">
               {info.detail.name ||
                 info.detail.title ||
                 info.detail.original_name ||
@@ -154,7 +154,7 @@ const Moviedetails = () => {
             </h1>
             <p className="text-white mb-8">{
               window.innerWidth <= 640 ?
-            info.detail.overview.slice(0,250):
+            info.detail.overview.slice(0,120):
             info.detail.overview
             }</p>
             <Link

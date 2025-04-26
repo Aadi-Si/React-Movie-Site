@@ -112,7 +112,7 @@ const PersonDetails = () => {
         </div>
         <div className=" w-full h-[90vh] lg:w-[75%]">
           <div className="content mb-15">
-            <h1 className="text-white text-5xl font-black mb-10">
+            <h1 className="text-white text-5xl font-black mb-10 mt-10 lg:mt-0">
               {info.detail.name ||
                 info.detail.title ||
                 info.detail.original_name ||
@@ -134,8 +134,8 @@ const PersonDetails = () => {
             <h1 className="text-white font-bold text-2xl mb-5">Biography :</h1>
             <p className="text-white mt-5 mb-8">
               {window.innerWidth <= 640 ?
-              info.detail.biography.slice(0, 750):
-              info.detail.biography.slice(0, 1600)
+              info.detail.biography.slice(0, 400):
+              info.detail.biography.slice(0, 2000)
               }...
               <Link to={"*"} className="text-blue-300">
                 more

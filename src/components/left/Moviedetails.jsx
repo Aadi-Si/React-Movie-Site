@@ -76,7 +76,7 @@ const Moviedetails = () => {
           />
           {info.watchproviders && info.watchproviders.flatrate && (
             <div className="flex gap-x-7 items-center text-zinc-300">
-              <h1 className="font-semibold ml-3">Available to flatrate :</h1>
+              <h1 className="font-semibold ml-1 lg:ml-3">Available to flatrate :</h1>
               <img
                 title={info.watchproviders.flatrate[0].provider_name}
                 loading="lazy"
@@ -89,7 +89,7 @@ const Moviedetails = () => {
 
           {info.watchproviders && info.watchproviders.rent && (
             <div className="flex gap-x-7 items-center text-zinc-300">
-              <h1 className="font-semibold ml-3 mr-4.5">Available to Rent :</h1>
+              <h1 className="font-semibold ml-1 mr-4.5 lg:ml-3">Available to Rent :</h1>
               <img
                 title={info.watchproviders.rent[0].provider_name}
                 loading="lazy"
@@ -102,7 +102,7 @@ const Moviedetails = () => {
 
           {info.watchproviders && info.watchproviders.buy && (
             <div className="flex gap-x-7 items-center text-zinc-300">
-              <h1 className="font-semibold ml-3 mr-5.5">Available to buy :</h1>
+              <h1 className="font-semibold ml-1 mr-5.5 lg:ml-3">Available to buy :</h1>
               <img
                 title={info.watchproviders.buy[0].provider_name}
                 loading="lazy"
@@ -154,7 +154,7 @@ const Moviedetails = () => {
             </h1>
             <p className="text-white mb-8">{
               window.innerWidth <= 640 ?
-            info.detail.overview.slice(0,550):
+            info.detail.overview.slice(0,250):
             info.detail.overview
             }</p>
             <Link

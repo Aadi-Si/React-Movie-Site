@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const SideNav = () => {
   return (
-    <div className="w-[60%] h-screen border-r-2 border-zinc-200 pl-10 pt-5 bg-[#1f1e24] lg:w-[20%]">
+    <div className="w-[65%] h-screen border-r-2 border-zinc-200 pl-10 pt-5 bg-[#1f1e24] lg:w-[20%]">
       <h1 className="text-lg font-bold text-white">
         <i className="ri-tv-fill text-[#6556cd] mr-3"></i>
         <span>ADB.</span>

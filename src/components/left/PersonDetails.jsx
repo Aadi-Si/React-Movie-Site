@@ -91,7 +91,7 @@ const PersonDetails = () => {
 
           <h1 className="text-lg font-semibold mt-2 lg:mt-1">
             Birthday :
-            <span className="text-sm font-semibold ml-13.5 lg:ml-15.5">
+            <span className="text-sm font-semibold ml-11.5 lg:ml-15.5">
               {info.detail.birthday || "N.A"}
             </span>
           </h1>

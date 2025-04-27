@@ -135,7 +135,7 @@ const PersonDetails = () => {
             <p className="text-white mt-5 mb-8">
               {window.innerWidth <= 640 ?
               info.detail.biography.slice(0, 400):
-              info.detail.biography.slice(0, 2000)
+              info.detail.biography.slice(0, 1800)
               }...
               <Link to={"*"} className="text-blue-300">
                 more

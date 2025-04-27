@@ -4,7 +4,7 @@ import noimage from "/noimage.jpg";
 const VerticalCards = React.memo(({ data, title }) => {
   return (
     <div
-      className="flex flex-wrap gap-5 p-5 w-full bg-[#1f1e24] px-[7%] lg:gap-15 lg:p-15"
+      className="flex flex-wrap gap-5 p-5 w-full bg-[#1f1e24] px-[9.5%] lg:gap-15 lg:p-15 lg:px-[7%]"
       style={{
         willChange: "transform",
       }}

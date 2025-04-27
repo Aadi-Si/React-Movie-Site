@@ -45,40 +45,40 @@ const PersonDetails = () => {
           <a
             target="_blank"
             href={`https://www.wikidata.org/wiki/${info.externalid.wikidata_id}`}
-            className="mr-10"
+            className="mr-9 lg:mr-10"
           >
             <i className="ri-earth-fill"></i>
           </a>
           <a
             target="_blank"
             href={`https://www.facebook.com/${info.externalid.facebook_id}`}
-            className="mr-10"
+            className="mr-9 lg:mr-10"
           >
             <i className="ri-facebook-circle-fill"></i>
           </a>
           <a
             target="_blank"
             href={`https://www.instagram.com/${info.externalid.instagram_id}`}
-            className="mr-10"
+            className="mr-9 lg:mr-10"
           >
             <i className="ri-instagram-fill"></i>
           </a>
           <a
             target="_blank"
             href={`https://www.twitter.com/${info.externalid.twitter_id}`}
-            className="mr-10"
+            className="mr-9 lg:mr-10"
           >
             <i className="ri-twitter-x-line"></i>
           </a>
           <h1 className="text-2xl font-bold mt-5">Personal Info</h1>
-          <h1 className="text-lg font-semibold mt-4">
+          <h1 className="text-lg font-semibold mt-5 lg:mt-4">
             Known For :
             <span className="text-sm font-semibold ml-11">
               {info.detail.known_for_department || "N.A"}
             </span>
           </h1>
 
-          <h1 className="text-lg font-semibold mt-1">
+          <h1 className="text-lg font-semibold mt-2 lg:mt-1">
             Gender :
             <span className="text-sm font-semibold ml-18">
               {info.detail.gender === 2
@@ -89,21 +89,21 @@ const PersonDetails = () => {
             </span>
           </h1>
 
-          <h1 className="text-lg font-semibold mt-1">
+          <h1 className="text-lg font-semibold mt-2 lg:mt-1">
             Birthday :
-            <span className="text-sm font-semibold ml-15.5">
+            <span className="text-sm font-semibold ml-13.5 lg:ml-15.5">
               {info.detail.birthday || "N.A"}
             </span>
           </h1>
 
-          <h1 className="text-lg font-semibold mt-1">
+          <h1 className="text-lg font-semibold mt-2 lg:mt-1">
             Deathday :
             <span className="text-sm font-semibold ml-13.5">
               {info.detail.deathday || "Still Alive"}
             </span>
           </h1>
 
-          <h1 className="text-lg font-semibold mt-1">
+          <h1 className="text-lg font-semibold mt-2 lg:mt-1">
             Place Of Birth :
             <span className="text-sm font-semibold ml-5">
               {info.detail.place_of_birth || "N.A"}

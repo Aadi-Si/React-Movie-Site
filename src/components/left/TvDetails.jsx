@@ -154,7 +154,7 @@ const TvDetails = () => {
             </h1>
             <p className="text-white mb-8">{
               window.innerWidth <= 640 ?
-            info.detail.overview.slice(0,120):
+            info.detail.overview.slice(0,200):
             info.detail.overview
             }</p>
             <Link
